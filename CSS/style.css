@@ -122,18 +122,20 @@ button:hover{
     #divmenusuperior{
         text-align: center;
         margin-left: -80px;
+        max-width: fit-content;
 }
 
     #divinfo{
         display: block;
         margin-left: -150px;
+        max-width: fit-content;
     }
 
     #divmenufotos{
         display: block;
         align-items: center;
         margin: -250px 0px 50px -80px;
-        
+        max-width: fit-content;
     }
 
     #foto{
