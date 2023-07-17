@@ -120,14 +120,18 @@ button:hover{
 
 @media (max-width: 768px){
     #divmenusuperior{
+        max-width: 100%;
         text-align: center;
-        margin-left: -80px;
+        margin-left: -20px;
+        padding-left: 0px;
         
 }
 
     #divinfo{
         display: block;
-        margin-left: -150px;
+        margin-left: -100px;
+        padding-left: 0px;
+
         
     }
 
@@ -135,12 +139,15 @@ button:hover{
         display: block;
         align-items: center;
         margin: -250px 0px 50px -80px;
+        padding: 0px;
         
     }
 
     #foto{
+        max-width: 100%;
         width: 450px;
-        margin-left: 107px;
+        margin-left: 100px;
+        padding-left: 0px;
         
     }
 
