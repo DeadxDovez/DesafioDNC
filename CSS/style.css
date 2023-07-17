@@ -158,6 +158,6 @@ button:hover{
 
     button{
         align-items: center;
-        align-content: center;
+        justify-content: center;
     }
 }
