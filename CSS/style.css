@@ -114,6 +114,35 @@ button:hover{
     background-color: #eea853;
     color: white;
     transform: translateY(-7px);
+    transition-duration: 0.5s;
     box-shadow: 0px 5px 10px 10px #75460c;
 }
 
+@media (max-width: 768px){
+    #divmenusuperior{
+        text-align: center;
+        margin-left: -80px;
+}
+
+    #divinfo{
+        display: block;
+        margin-left: -150px;
+    }
+
+    #divmenufotos{
+        display: block;
+        align-items: center;
+        margin: -250px 0px 50px -80px;
+        
+    }
+
+    #foto{
+        width: 450px;
+        margin-left: 107px;
+        
+    }
+
+    input{
+        max-width: 100%;
+    }
+}
