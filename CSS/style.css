@@ -155,4 +155,9 @@ button:hover{
         max-width: 100%;
         align-items: center;
     }
+
+    button{
+        align-items: center;
+        align-content: center;
+    }
 }
